@@ -24,8 +24,11 @@ jobs:
     - name: Build with Ant
       run: ant -noinput -buildfile build.xml
     
-    - name: Compilando Projeto
-      run: ant compile
+    - name: Compilando Acesso
+      run: javac -cp src src/ControleAcesso.java
+      
+    - name: Compilando Test
+      run: javac -cp src src/ControleAcessoTest.java
     
     - name: Executando o projeto
       run: java -cp target/classes org.example.ControleAcessoTest
