@@ -29,7 +29,7 @@ jobs:
       run: javac -cp src src/ControleAcessoTest.java
     
     - name: Executando o projeto
-      run: java -cp target org.example.CatracaJBS.ControleAcessoTest
+      run: java -cp src org.example.CatracaJBS.ControleAcessoTest
     
     - name: Checkout code
       uses: actions/checkout@v3
