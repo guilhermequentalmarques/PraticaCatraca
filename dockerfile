@@ -1,3 +1,4 @@
 FROM openjdk
-WORKDIR pratica_catraca
+EXPOSE 8080
+WORKDIR target
 COPY src/. .
