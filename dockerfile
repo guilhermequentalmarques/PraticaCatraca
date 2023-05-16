@@ -1,4 +1,4 @@
 FROM openjdk
 EXPOSE 8080
-WORKDIR target
+WORKDIR src
 COPY src/. .
