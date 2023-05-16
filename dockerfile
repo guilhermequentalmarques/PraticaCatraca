@@ -1,3 +1,3 @@
 FROM openjdk
-WORKDIR PraticaCatraca
+WORKDIR pratica_catraca
 COPY src/. .
